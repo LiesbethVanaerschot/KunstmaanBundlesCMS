@@ -22,7 +22,9 @@ kunstmaanbundles.richEditor = (function(window, undefined) {
                 { name: 'clipboard', items : ['SelectAll', 'Cut', 'Copy', 'PasteText', 'PasteFromWord', '-', 'Undo', 'Redo'] },
                 { name: 'editing', items : [] },
                 { name: 'document', items : ['Source'] }
-            ]
+            ],
+            autoGrow_minHeight: 300
+
         }
     };
 
