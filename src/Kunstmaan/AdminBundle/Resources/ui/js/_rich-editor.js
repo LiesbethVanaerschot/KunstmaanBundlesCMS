@@ -13,6 +13,7 @@ kunstmaanbundles.richEditor = (function(window, undefined) {
             filebrowserImageWindowWidth: 970,
             filebrowserImageUploadUrl: '',
             extraAllowedContent: 'div(*)',
+            resize: ['100%', '100%', true],
             toolbar: [
                 { name: 'basicstyles', items : ['Bold', 'Italic', 'Underline', 'Strike', 'Subscript', 'Superscript', 'RemoveFormat'] },
                 { name: 'lists', items : ['NumberedList', 'BulletedList'] },
@@ -23,7 +24,6 @@ kunstmaanbundles.richEditor = (function(window, undefined) {
                 { name: 'editing', items : [] },
                 { name: 'document', items : ['Source'] }
             ],
-            autoGrow_minHeight: 300
 
         }
     };
