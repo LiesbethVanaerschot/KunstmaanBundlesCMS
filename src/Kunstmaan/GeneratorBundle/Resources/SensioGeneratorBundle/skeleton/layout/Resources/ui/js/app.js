@@ -5,6 +5,7 @@ var {{ bundle.getName() }} = {{ bundle.getName() }} || {};
     var init;
 
     init = function() {
+        {{ bundle.getName() }}.cookieConsent.init();
 {% if demosite %}
         cargobay.scrollToTop.init();
         cargobay.toggle.init();
